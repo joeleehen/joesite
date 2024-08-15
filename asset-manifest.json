@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/joesite/static/css/main.7d8da223.css",
+    "main.js": "/joesite/static/js/main.6cdabd4f.js",
+    "static/js/453.6865950d.chunk.js": "/joesite/static/js/453.6865950d.chunk.js",
+    "index.html": "/joesite/index.html",
+    "main.7d8da223.css.map": "/joesite/static/css/main.7d8da223.css.map",
+    "main.6cdabd4f.js.map": "/joesite/static/js/main.6cdabd4f.js.map",
+    "453.6865950d.chunk.js.map": "/joesite/static/js/453.6865950d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d8da223.css",
+    "static/js/main.6cdabd4f.js"
+  ]
+}
