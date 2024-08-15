@@ -3,9 +3,48 @@ export const projects = [
         title: "rsls",
         subtitle: "Command Line Tool",
         description:
-            "A command line utility that mirrors ls, but includes colored icons depending on the file type. Written in Rust and available on the Arch User Repository!",
+            "A command line utility that mirrors ls, but includes colored icons depending on the file type; available on the Arch User Repository",
         link: "https://github.com/joeleehen/rsls",
-    }
+        link2: "https://aur.archlinux.org/packages/rsls-git",
+        links: [
+            {
+                url: "https://github.com/joeleehen/rsls",
+                icon: "RocketLaunchIcon"
+            },
+            {
+                url: "https://aur.archlinux.org/packages/rsls-git",
+                icon: "GlobeAmericasIcon"
+            },
+        ],
+        tech: [
+            "Rust",
+            "Shell Script"
+        ]
+    },
+    {
+        title: "imgRecord",
+        subtitle: "Web App",
+        description:
+            "A web app that scans a barcode from a vinyl record sleeve and displays the album art on an Adafruit RGB Matrix",
+        link: "https://github.com/joeleehen/imgRecord",
+        tech: [
+            "Python",
+            "Flask",
+            "Javascript",
+            "REST API",
+            "Shell Scripting"
+        ]
+    },
+    {
+        title: "lee_alg",
+        subtitle: "Math Library",
+        description:
+            "A Rust crate for matrix support and common linear-algebra operations",
+        link: "https://github.com/joeleehen/lee_alg",
+        text: [
+            "Rust"
+        ]
+    },
 ]
 
 export const courses = [
