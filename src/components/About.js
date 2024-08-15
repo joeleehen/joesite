@@ -1,11 +1,12 @@
 import Typewriter from "../Typewriter";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 export default function About() {
     return (
     <section id="about">
         <div className= "container mx-auto flex px-10 py-20 flex-col items-center">
-            <h1 className="font-mono sm:text-4xl text-3xl mb-4 font-medium text-white">
-                hi, <Typewriter text="i'm joseph" delay={100} /> <span className="font-mono text-purple-300 animate-ping">|</span>
+            <h1 className="font-mono sm:text-4xl text-3xl mb-4 mr-0 pr-0 font-medium text-white">
+                hi, <Typewriter text="i'm joseph" delay={100} /><span className="font-mono text-purple-300 pl-0 ml-0 animate-ping">|</span>
                 <br/>
             </h1>
             <h2 className="font-mono sm:text-2xl text-1xl mb-4 font-medium text-gray-400">
@@ -18,6 +19,13 @@ export default function About() {
                 different aspects of software development to discover where I fit and what I like
                 to make.
             </p>
+            <div>
+                <a
+                    href="mailto:joeylhendrix@gmail.com"
+                    className="text-purple-300 border border-purple-300 rounded-lg p-4 hover:bg-gray-700 duration-300">
+                    <EnvelopeIcon className="size-6 inline-block mr-4" />contact me
+                </a>
+            </div>
         </div>
     </section>
     );

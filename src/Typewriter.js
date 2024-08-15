@@ -15,7 +15,7 @@ const Typewriter = ({ text, delay }) => {
         }
     }, [currentIndex, delay, text]);
 
-    return <span>{currentText}</span>;
+    return <span style={{marginRight : 0, paddingRight : 0}}>{currentText}</span>;
 };
 
 export default Typewriter;
