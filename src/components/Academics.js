@@ -24,7 +24,7 @@ export default function Academics() {
                     <h2 className="font-mono text-xl text-purple-300">
                         {course.name}
                     </h2>
-                    <p className="text-l text-gray-500 mb-4">
+                    <p className="font-mono text-l text-gray-500 mb-4">
                         {course.description}
                     </p>
                 </div>
