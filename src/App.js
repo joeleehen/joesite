@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Academics from "./components/Academics";
@@ -13,7 +13,7 @@ export default function App() {
             <About />
             <Academics />
             <Projects />
-            <Contact />
+            <Skills />
         </main>
     );
 }

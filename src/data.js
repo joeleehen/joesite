@@ -84,3 +84,17 @@ export const courses = [
             "Isolating causal relationship between a predictor and dependent with a focus on experimental design"
     }
 ]
+
+export const skills = [
+    "R",
+    "Python",
+    "Stata",
+    "Java",
+    "SQL",
+    "git",
+    "Javascript",
+    "HTML/CSS",
+    "PHP",
+    "Rust",
+    "React"
+]
