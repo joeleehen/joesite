@@ -13,9 +13,9 @@ export default function Skills() {
             <p className="ml-2 mb-8 leading-relaxed font-mono text-gray-400">
                 I've been building my knowledge of the following technologies through formal education and personal initiative:
             </p>
-            <div>
+            <div className="flex flex-wrap">
                 {skills.map((skill) => (
-                <span className="font-mono text-sm text-gray-800 bg-purple-300 px-3 py-1 border-purple-300 rounded-xl mx-2">{skill}</span>
+                <span className="font-mono text-sm text-gray-800 bg-purple-300 px-3 py-1 border-purple-300 rounded-xl mx-2 mb-4">{skill}</span>
                 ))}
             </div>
         </div>
