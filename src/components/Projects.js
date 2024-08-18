@@ -4,13 +4,13 @@ import { projects } from "../data";
 export default function Projects() {
     return(
     <section id="projects">
-        <div className="container px-5 py-10 mx-auto">
+        <div className="container mx-auto flex px-10 py-20 flex-col items-start">
             <h1 className="font-mono sm:text-4xl text-3xl mb-4 mr-0 pr-0 font-medium text-white">
                 <CubeIcon className="text-purple-300 size-10 inline-block mr-4 mb-1" />
                 projects
             </h1>
         </div>
-        <div className="flex justify-center md:space-x-10 flex-wrap px-5 mx-auto auto mt-4">
+        <div className="container mx-auto flex px-10 py-20 flex-col md:flex-row">
             {projects.map((project) => (
             <div className="p-4 max-w-lg md:w-1/2 w-full">
                 <div className="h-full bg-gray-700 border border-gray-700 p-8 rounded-xl hover:bg-gray-600 hover:border-purple-300 duration-200">
