@@ -1,7 +1,7 @@
 {
   "name": "joesite",
   "version": "0.1.0",
-  "homepage": "https://joeleehen.github.io/joesite",
+  "homepage": "https://joeleehen.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
