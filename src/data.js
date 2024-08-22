@@ -17,8 +17,8 @@ export const projects = [
             },
         ],
         tech: [
-            "Rust",
-            "Shell Script"
+            "Rust,",
+            "Shell scripting"
         ]
     },
     {
@@ -34,11 +34,11 @@ export const projects = [
             },
         ],
         tech: [
-            "Python",
-            "Flask",
-            "Javascript",
-            "REST API",
-            "Shell Scripting"
+            "Python,",
+            "Flask,",
+            "Javascript,",
+            "REST API,",
+            "Shell scripting"
         ]
     },
     {

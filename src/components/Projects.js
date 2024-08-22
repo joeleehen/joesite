@@ -1,5 +1,6 @@
 import { CubeIcon, CodeBracketIcon, RocketLaunchIcon, GlobeAmericasIcon } from "@heroicons/react/24/outline";
 import CardLinks from "./CardLinks";
+import TechUsed from "./TechUsed";
 import { projects } from "../data";
 
 export default function Projects() {
@@ -40,6 +41,9 @@ export default function Projects() {
                         </span>
                     </span>
                     <p className="font-mono text-gray-300 leading-relaxed mb-6">{project.description}</p>
+                    <div className="justify-self-end font-mono text-gray-400 text-xs">
+                        <TechUsed tools={project.tech} />
+                    </div>
                 </div>
             </div>
             ))}
