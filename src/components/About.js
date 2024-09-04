@@ -16,8 +16,7 @@ export default function About() {
                 I'm a junior software developer from Bryan, Texas. I recently graduated from The
                 University of Texas at Austin with a Bachelor's of Science in Economics and a 
                 certificate in Computer Science. Currently, I'm learning everything I can about
-                different aspects of software development to discover where I fit and what I like
-                to make.
+                different aspects of software development.
             </p>
             <div>
                 <a
