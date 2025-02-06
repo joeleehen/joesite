@@ -10,7 +10,7 @@ export default function Skills() {
                 <BoltIcon className="text-purple-300 size-10 inline-block mr-4 mb-1"/>
                 skills
             </h1>
-            <p className="ml-2 mb-8 leading-relaxed font-mono text-gray-400">
+            <p className="ml-2 mb-8 leading-relaxed font-mono text-lg text-gray-400">
                 I've been building my knowledge of the following technologies through formal education and personal initiative:
             </p>
             <div className="flex flex-wrap">

@@ -12,7 +12,7 @@ export default function Title() {
             <h2 className="font-mono sm:text-2xl text-1xl mb-4 font-medium text-gray-400">
                 I like to make things
             </h2>
-            <p className="mb-8 leading-relaxed font-mono text-gray-400 text-center">
+            <p className="mb-8 leading-relaxed font-mono text-lg text-gray-400 text-center">
                 I'm a junior software developer from Bryan, Texas. I recently graduated from The
                 University of Texas at Austin with a Bachelor's of Science in Economics and a 
                 certificate in Computer Science. Currently, I'm learning everything I can about

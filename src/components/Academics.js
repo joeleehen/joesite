@@ -9,7 +9,7 @@ export default function Academics() {
                 <AcademicCapIcon className="text-purple-300 size-10 inline-block mr-4 mb-1" />
                 academics
             </h1>
-            <p className="ml-2 mb-8 leading-relaxed font-mono text-gray-400">
+            <p className="ml-2 mb-8 leading-relaxed font-mono text-lg text-gray-400">
                 
                 In college, I focused on econometrics, regression analysis, and data visualization.
                 I have a broad education in various computer science disciplines, and I plan to further
