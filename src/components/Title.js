@@ -1,9 +1,9 @@
 import Typewriter from "../Typewriter";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
-export default function About() {
+export default function Title() {
     return (
-    <section id="about">
+    <section id="title">
         <div className= "container mx-auto flex sm:py-40 sm:px-40 px-5 py-10 flex-col items-center">
             <h1 className="font-mono sm:text-4xl text-2xl mb-4 mr-0 pr-0 font-medium text-white">
                 hi, <Typewriter text="i'm joseph" delay={100} /><span className="font-mono text-purple-300 pl-0 ml-1 animate-ping">|</span>
