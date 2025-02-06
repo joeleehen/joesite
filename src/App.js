@@ -1,5 +1,5 @@
 import React from "react";
-import About from "./components/About";
+import Title from "./components/Title";
 import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -10,7 +10,7 @@ export default function App() {
     return (
         <main className="bg-gray-800">
             <Navbar />
-            <About />
+            <Title />
             <Academics />
             <Projects />
             <Skills />
