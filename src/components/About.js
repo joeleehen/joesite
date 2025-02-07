@@ -16,7 +16,7 @@ const About = () => {
 
     return (
     <section id="about">
-        <div className="container mx-auto flex px-10 py-20 flex-col items-start">
+        <div className="container md:mt-80 mx-auto flex px-10 py-20 flex-col items-start">
             <h1 className="font-mono sm:text-4xl text-3xl mb-4 mr-0 pr-0 font-medium text-white">
                 <AtSymbolIcon className="text-purple-300 size-10 inline-block mr-4 mb-1" />
                 about me
@@ -34,7 +34,7 @@ const About = () => {
                         a few years before deciding.
                     </p>
                     <p className="text-lg ml-2 mb-8 leading-relaxed font-mono text-gray-400">
-                        Outside of work, I like to reading, Dungeons and Dragons, and playing with my cat.
+                        Outside of work, I like reading, Dungeons and Dragons, and playing with my cat.
                     </p>
                 </div>
                 <div>
