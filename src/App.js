@@ -11,7 +11,7 @@ import styles from "./output.css";
 
 const App = () => {
     return (
-        <main className="bg-gray-800">
+        <main className="bg-gray-800 pb-72">
             <Navbar />
             <Title />
             <FadeInSection>
