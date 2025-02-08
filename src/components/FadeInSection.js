@@ -1,0 +1,33 @@
+import { useState, setState } from "react";
+import { useEffect } from "react";
+import { useRef } from "react";
+
+const FadeInSection = (props) => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    const domRef = useRef();
+
+    const options = {
+        root: null,
+        rootMargin: "200% 0px -25% 0px",
+    };
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => isVisible ? setIsVisible(true) : setIsVisible(entry.isIntersecting));
+        }, options);
+        observer.observe(domRef.current);
+        return () => observer.unobserve(domRef.current);
+    }, []);
+
+    return (
+        <div 
+            className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+            ref={domRef}
+        >
+            {props.children}
+        </div>
+    );
+}
+
+export default FadeInSection;

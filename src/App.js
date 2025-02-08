@@ -1,5 +1,7 @@
 import React from "react";
 import Title from "./components/Title";
+import FadeInSection from "./components/FadeInSection";
+import "./components/FadeInSection.css";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
@@ -12,10 +14,18 @@ const App = () => {
         <main className="bg-gray-800">
             <Navbar />
             <Title />
-            <About />
-            <Academics />
-            <Projects />
-            <Skills />
+            <FadeInSection>
+                <About />
+            </FadeInSection>
+            <FadeInSection >
+                <Academics />
+            </FadeInSection>
+            <FadeInSection >
+                <Projects />
+            </FadeInSection>
+            <FadeInSection >
+                <Skills />
+            </FadeInSection>
         </main>
     );
 }
