@@ -24,17 +24,17 @@ const About = () => {
             <div id="blurbAndPic" className="flex flex-row">
                 <div className="max-w-1/2">
                     <p className="text-lg ml-2 mb-8 leading-relaxed font-mono text-gray-400">
-                        I've just completed an internship at <a href="https://tacc.utexas.edu"><span className="text-purple-300 hover:underline">The Texas Advanced Computing Center</span></a>, where
-                        I worked with the Life Sciences Department building full-stack web interfaces and
-                        optimizing HPC research applications.
+                        I recently completed an internship at <a href="https://tacc.utexas.edu"><span className="text-purple-300 hover:underline">The Texas Advanced Computing Center</span></a>, where
+                        I developed full-stack web interfaces and optimized high performance computing applications 
+                        to support research initiatives for the Life Sciences Department.
                     </p>
                     <p className="text-lg ml-2 mb-8 leading-relaxed font-mono text-gray-400">
-                        I plan to pursue a Master's in Computer Science; I'm currently working on pre-requisite classes.
-                        I'm also considering PhD in Computer Science with a focus on quantum computing, but I'd like to work for
-                        a few years before deciding.
+                        I plan to pursue a Master's in Computer Science and am working on completing the required prerequisite coursework.
+                        In the long term, I'm considering a PhD in Computer Science with a focus in quantum computing, but I plan to
+                        gain some professional experience before making a final decision.
                     </p>
                     <p className="text-lg ml-2 mb-8 leading-relaxed font-mono text-gray-400">
-                        Outside of work, I like reading, Dungeons and Dragons, and playing with my cat.
+                        Beyond my professional work, I enjoy reading, playing Dungeons and Dragons, and spending time with my cat, Jones.
                     </p>
                 </div>
                 <div>
