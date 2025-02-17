@@ -112,5 +112,6 @@ export const skills = [
     "HTML/CSS",
     "PHP",
     "Rust",
-    "React"
+    "React",
+    "Docker",
 ]
