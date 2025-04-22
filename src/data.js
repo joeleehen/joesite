@@ -68,7 +68,7 @@ export const projects = [
         title: "acgc_lettercheck",
         subtitle: "Command Line Tool",
         description:
-            "My own implemntation of the mail grading system used in Animal Crossing for the GameCube, written in C.",
+            "My own implementation of the mail grading system used in Animal Crossing for the GameCube, written in C and rendered in GTK 2.",
         links: [
             {
                 url: "https://github.com/joeleehen/acgc_lettercheck",
@@ -76,7 +76,8 @@ export const projects = [
             },
         ],
         tech: [
-            "C"
+            "C,",
+            "GTK"
         ]
     }
 ]
