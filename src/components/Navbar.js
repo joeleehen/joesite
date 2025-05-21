@@ -13,7 +13,7 @@ export default function Navbar() {
                         <EnvelopeIcon className="size-4 inline-block text-gray-400 hover:text-purple-300" />
                     </a>
                     <a href="https://github.com/joeleehen" target="_blank" className="text-gray-400 text-2xl">
-                        <GitHubIcon className="hover:text-purple-300" style={{ fontSize: "1.25rem", marginTop: "3px", marginRight: "0.50rem", marginLeft: "0.60rem" }}/>
+                        <GitHubIcon className="text-gray-400 hover:text-purple-300" style={{ fontSize: "1.25rem", marginTop: "3px", marginRight: "0.50rem", marginLeft: "0.60rem" }}/>
                     </a>
                     <a href="https://linkedin.com/in/joeleehen" target="_blank" className="text-gray-400 text-2xl">
                         <LinkedInIcon className="hover:text-purple-300 size-4" style={{ fontSize: "1.25rem", marginTop: "3px" }} />
