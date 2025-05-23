@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect } from "react";
 
-export default function Leftlinks() {
-    const [isDesktop, setDesktop] = useState(window.innerWidth > 769);
+const Leftlinks = () => {
+    const [isDesktop, setIsDesktop] = useState<boolean>(window.innerWidth > 769);
 
     const updateMedia = () => {
-        setDesktop(window.innerWidth > 769);
+        setIsDesktop(window.innerWidth > 769);
     };
 
     useEffect(() => {
@@ -23,14 +23,16 @@ export default function Leftlinks() {
                 </a>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-purple-300 flex flex-wrap items-center text-base justify-center">
                     <a href="#about" className="mr-5 text-xs text-gray-400 hover:text-purple-300">About</a>
-                    <a href="#academics" className="mr-5 text-xs text-gray-400 hover:text-purple-300">Academics</a>
-                    <a href="#projects" className="mr-5 text-xs text-gray-400 hover:text-purple-300">Projects</a>
+                    <a href="academics" className="mr-5 text-xs text-gray-400 hover:text-purple-300">Academics</a>
+                    <a href="projects" className="mr-5 text-xs text-gray-400 hover:text-purple-300">Projects</a>
                     <a href="#skills" className="mr-5 text-xs text-gray-400 hover:text-purple-300">Skills</a>
                 </nav>
             </>
-            ) : (
+            ): (
             <></>
             )}
         </div>
     )
 }
+
+export default Leftlinks;

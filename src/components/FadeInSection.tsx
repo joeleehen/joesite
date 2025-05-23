@@ -1,11 +1,11 @@
-import { useState, setState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useRef } from "react";
+import { PropsWithChildren } from "react";
 
-const FadeInSection = (props) => {
+const FadeInSection = (props: PropsWithChildren) => {
     const [isVisible, setIsVisible] = useState(false);
 
-    const domRef = useRef();
+    const domRef = useRef<any>(null);
 
     const options = {
         root: null,
