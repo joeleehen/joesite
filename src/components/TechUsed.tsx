@@ -1,4 +1,4 @@
-const TechUsed = ({ tools }) => {
+const TechUsed = ({ tools }: {tools: string[]}) => {
     return (
         <div>
             {tools.map((tool) => (

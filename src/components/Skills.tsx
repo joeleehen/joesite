@@ -1,6 +1,6 @@
 import { BoltIcon } from "@heroicons/react/24/outline";
 import React from "react"; 
-import { skills } from "../data.ts"
+import { skills } from "../data"
 
 const Skills = () => {
     return (

@@ -45,7 +45,6 @@ export const projects: Project[] = [
         subtitle: "Web App",
         description:
             "A web app that scans a barcode from a vinyl record sleeve and displays the album art on an Adafruit RGB Matrix",
-        link: "https://github.com/joeleehen/imgRecord",
         links: [
             {
                 url: "https://github.com/joeleehen/imgRecord",
@@ -69,7 +68,6 @@ export const projects: Project[] = [
         subtitle: "Math Library",
         description:
             "A Rust crate for matrix support and common linear-algebra operations",
-        link: "https://github.com/joeleehen/lee_alg",
         links: [
             {
                 url: "https://github.com/joeleehen/lee_alg",

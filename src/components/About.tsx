@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AtSymbolIcon } from "@heroicons/react/24/outline";
-import joegrad from "../img/joegrad.jpeg"
+// import joegrad from "../img/joegrad.jpeg"
 
 const About = () => {
     const [showImage, setShowImage] = useState<boolean>(window.innerWidth > 769);
@@ -39,7 +39,7 @@ const About = () => {
                     </div>
                     <div>
                         {showImage ? (
-                            <img src={joegrad} 
+                            <img src="/images/joegrad.jpeg"
                             alt="the ol' mug"
                             className="sm:flex rounded-lg max-w-xs scale-75 -mt-14" />
 

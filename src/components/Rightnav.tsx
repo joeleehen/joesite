@@ -34,3 +34,5 @@ const Leftlinks = () => {
         </div>
     )
 }
+
+export default Leftlinks;

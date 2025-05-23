@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar.tsx"
-import Title from "./components/Title.tsx"
-import FadeInSection from "./components/FadeInSection.tsx"
+import Navbar from "./components/Navbar"
+import Title from "./components/Title"
+import FadeInSection from "./components/FadeInSection"
 import "./components/FadeInSection.css"
-import About from "./components/About.tsx"
-import Academics from "./components/Academics.tsx"
-import Projects from "./components/Projects.tsx"
-import Skills from "./components/Skills.tsx"
+import About from "./components/About"
+import Academics from "./components/Academics"
+import Projects from "./components/Projects"
+import Skills from "./components/Skills"
 
 const App = () => {
     return (

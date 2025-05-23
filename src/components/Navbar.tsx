@@ -1,13 +1,13 @@
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import Rightnav from "./Rightnav";
+import Leftlinks from "./Rightnav";
 
 const Navbar = () => {
     return (
     <header className="bg-gray-800 sticky top-0 z-10">
         <div className="container mx-auto flex flex-wrap sm:pt-0 p-3 flex-col md:flex-row">
-            <Rightnav />
+            <Leftlinks />
             <nav className="ml-auto">
                 <a href="mailto:joeylhendrix@gmail.com">
                     <EnvelopeIcon className="size-4 inline-block text-gray-400 hover:text-purple-300" />
