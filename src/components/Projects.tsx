@@ -1,7 +1,7 @@
 import { CubeIcon, CodeBracketIcon, RocketLaunchIcon, GlobeAmericasIcon } from "@heroicons/react/24/outline";
 import CardLinks from "./CardLinks.tsx";
 import TechUsed from "./TechUsed.tsx";
-import { projects } from "../data";
+import { projects } from "../data.ts";
 
 const Projects = () => {
     return (
