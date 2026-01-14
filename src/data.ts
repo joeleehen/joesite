@@ -67,7 +67,7 @@ export const projects: Project[] = [
         title: "lee_alg",
         subtitle: "Math Library",
         description:
-            "A Rust crate for matrix support and common linear-algebra operations",
+            "A Rust crate for matrix support and common linear-algebra operations.",
         links: [
             {
                 url: "https://github.com/joeleehen/lee_alg",
@@ -92,6 +92,28 @@ export const projects: Project[] = [
         tech: [
             "C,",
             "GTK"
+        ]
+    },
+    {
+        title: "inkSearch",
+        subtitle: "Deployed Web App",
+        description: "L2 distance similarity queries over vectorized color data from images of ink swatches. Scraped using Go and hosted on AWS.",
+        links: [
+            {
+                url: "https://github.com/joeleehen/frontendInks",
+                path: ROCKET_SVG
+            },
+            {
+                url: "https://joeleehen.github.io/frontendInks/",
+                path: GLOBE_SVG
+            },
+        ],
+        tech: [
+            "Go,",
+            "React,",
+            "FastAPI,",
+            "PostgreSQL,",
+            "AWS Lightsail"
         ]
     }
 
@@ -149,4 +171,5 @@ export const skills: string[] = [
     "React",
     "Docker",
     "C",
+    "Golang",
 ]
