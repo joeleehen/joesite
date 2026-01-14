@@ -109,12 +109,10 @@ export const projects: Project[] = [
             },
         ],
         tech: [
-            "Go",
-            "Python",
-            "Typescript",
-            "React",
-            "FastAPI",
-            "PostgreSQL",
+            "Go,",
+            "React,",
+            "FastAPI,",
+            "PostgreSQL,",
             "AWS Lightsail"
         ]
     }
