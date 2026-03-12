@@ -100,11 +100,11 @@ export const projects: Project[] = [
         description: "L2 distance similarity queries over vectorized color data from images of ink swatches. Scraped using Go and hosted on AWS.",
         links: [
             {
-                url: "https://github.com/joeleehen/frontendInks",
+                url: "https://github.com/joeleehen/inksearch",
                 path: ROCKET_SVG
             },
             {
-                url: "https://joeleehen.github.io/frontendInks/",
+                url: "https://joeleehen.github.io/inksearch/",
                 path: GLOBE_SVG
             },
         ],
